@@ -1,0 +1,30 @@
+<!-- create_user.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer un Utilisateur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="bouton-retour" class="poppins-semibold bouton-deconnexion" style="font-size: 2.5rem;">Retour</button>
+    
+
+    <form class="container" id="form-creer-utilisateur">
+        <h1>Ca boit ?</h1>
+        <label style="font-size: 2.5rem; padding-top: 15px;" for="nom">Nom :</label>
+        <input style="font-size: 2.5rem;" type="text" id="nom" name="nom" required>
+
+        <!-- <label style="font-size: 2.5rem; padding-top: 15px;" for="taille">Taille (cm) :</label>
+        <input style="font-size: 2.5rem;" type="number" id="taille" name="taille" required> -->
+
+        <label style="font-size: 2.5rem; padding-top: 15px;" for="poids">Poids (kg) :</label>
+        <input style="font-size: 2.5rem;" type="number" id="poids" name="poids" required>
+
+        <button style="font-size: 2.5rem;" class="poppins-semibold" type="submit">Créer</button>
+    </form>
+
+    <script src="create_user.js"></script>
+</body>
+</html>
